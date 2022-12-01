@@ -1,483 +1,119 @@
-/* ----------------------------------------------------------------Universal Selector---------------------------------------------------------*/
-
-*{
-    border: 0;
-    margin: 0;
-}
-
-/* -------------------------------------------------------------------Nav Section-------------------------------------------------------------*/
-
-.logo
-
-{
-    width: 12%;
-    height: 90%;
-    padding-top: 1%;
-}
-
-.logo-text
-{
-    font-family: "Bauhaus 93";
-    font-size: xx-large;
-    position: relative;
-    bottom: 30px;
-
-}
-
-  
-nav a 
-{
-    color: rgb(0, 72, 0);
-}
-
-nav 
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #E2F0D9;
-    color: rgb(0, 72, 0);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.nav-link-div 
-{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 100px;
-    width: 50%;
-
-}
-
-.nav-link-div ul li
-{
-    list-style-type: none; 
-    padding: 0; 
-    margin: 0; 
-    display: inline;
-    padding: 20px;
-    border-radius: 10px;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     
-}
-
-
-.item1:hover, .item2:hover, .item3:hover
-{
-    background-color: rgb(43, 65, 50);
-    transition: 1s;
-    position: relative;
-    bottom: 2px;
-    color: white;
-}
-
-header nav div ul li a 
-{
-    text-decoration: none;
-    color: rgb(43, 65, 50);
-    padding: 0px;
-    margin: 0px;
-}
-
-header nav div ul li a:visited 
-{
-    text-decoration: none;
-    text-decoration-line:none;
-}
-
-.item1 a:hover, .item2 a:hover, .item3 a:hover
-{ 
-    cursor: pointer;
-    color: white;
-}
-
-
-/*-------------------------------------------------------------Header Image section.......................................................*/
-
-.main-img 
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around;
-    font-size: xx-large;
-    width: 100%;
-}
-
-
-
-
-/*-------------------------------------------------------------Section-1 About Me-------------------------------------------------------*/
-
-.section-1
-{
-    display: flex;
-    justify-content: center;
-    align-items: bottom;
-}
-
-#about-me-text 
-{
-    padding-top: 7%;    
-    padding-bottom: 7%;
-    width: 100%;
-
-}
-
-#about-me-text h2 
-{
-    background-color: rgb(43, 65, 50);
-    border-radius: 10px;
-    padding-left: 4%;
-    padding-right: 3%;
-    margin-left: 43%;
-    margin-right: 43%;
-
-    line-height: 60px;
-    font-size: large;
-    color:#E2F0D9;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-
-
-#profile-pic
-{
-
-    height: 25%;
-    width: 20%;
-    border-radius: 80%;
-    padding-top: 4%;
-    padding-bottom: 2%;
-    margin-left: 40%;
-    margin-right: 40%;
-}
-
-#about-me-text p
-{
-    text-align:left;
-    margin-left: 25%;
-    margin-right: 25%;
-    padding: 2% 2% 2% 2%;
-    border-radius: 20px;
-    background-color: #E2F0D9;
-
-
-}
-
-/*--------------------------------------------------------------Horizontal Line-----------------------------------------------------------*/
-
-hr
-{
-    width: 33.3%;
-    margin-left: 33.3%;
-    margin-right: 33.3%;
-    color: #E2F0D9 ;
-}
-/*--------------------------------------------------------------Section-2 My Work----------------------------------------------------------*/
-
-#my-work-text h2 
-{
-    background-color: rgb(43, 65, 50);
-    border-radius: 10px;
-    text-align: center;
-    padding-left: 3%;
-    padding-right: 3%;
-    margin-bottom: 5%;
-
-    margin-left: 40%;
-    margin-right: 40%;
-    line-height: 60px;
-    font-size: large;
-    color:#E2F0D9;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-}
-
-
-#my-work-text 
-{
-    padding-top: 7%;    
-    padding-bottom: 7%;
-    width: 100%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-
-/*---My Work Image Grid----*/
-
-.card1 img
-{
-    display: inline-block;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    border-radius: 10px;
-    border: solid rgb(43, 65, 50);
-
-}
-
-.card2
-
-{
-margin-left: 25%;
-}
-
-.card2 img
-{
-    border-radius: 10px;
-    display: inline-block;
-    width: 21.7%;
-    margin-left: 0%;
-    margin-right: 0%;
-    border: solid rgb(43, 65, 50);
-}
-
-/*-----------------------------------------------------------Contact Me Section----------------------------------------------------------*/
-
-#contact-me-text
-{
-    height: 80px;
-    width: 100%;
-    background-color: rgb(43, 65, 50);
-    color:#E2F0D9;
-    text-align: center;
-    padding-top: 45px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-
-#contact-me-text img
-{
-    width: 20px;
-    padding-left: 1%;
-    padding-right: 1%;
-
-}
-
-#contact-me-text a
-{
-    text-align: center;
-    color:#E2F0D9;
-    margin-left: 1%;
-    margin-right: 1%;
-}
-
-/*--------------------------------------------Media Query - Screen size 1400px or lower------------------------------------------------*/
-
-@media screen and (max-width: 1200px) 
-{
-
-    .logo
-    {
-        width: 12%;
-        padding-left: 46%;
-    }
-
-    .logo-text{
-        display: block;
-        padding: 0;
-        margin: 0;
-        position: relative;    
-        bottom: 5px;
-        left: 35%;
-    }
-
-    nav {
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .nav-link-div{
-        width: 100%;
-        font-size: 15px;
-    }
-
-    
-    #about-me-text h2 {
-        display: block;
-        font-size: large;
-        margin-left: 39%;
-        margin-right: 39%;
-        text-align: center;
-        font-size: 20px;
-    }
-
-    #my-work-text h2 
-    
-    {
-        display: block;
-        font-size: large;
-        margin-left: 39%;
-        margin-right: 39%;
-        
-        text-align: center;
-
-    }
-}
-
-/*--------------------------------------------Media Query - Screen size 715px or lower------------------------------------------------*/
-
-@media screen and (max-width: 715px) 
-{
-
-    .logo
-    {
-        width: 12%;
-    }
-
-    .logo-text{
-        display: block;
-        padding: 0;
-        margin: 0;
-        position: relative;  
-        bottom: 5px;
-        left: 35%;
-    }
-
-    nav {
-        flex-wrap: wrap;
-        font-size: 15px;
-    }
-
-    a{
-        font-size: large;
-    }
-
-    .nav-link-div{
-        width: 100%;
-    }
-
-    
-    #about-me-text h2  {
-        display: block;
-
-        font-size: large;
-        margin-left: 40%;
-        margin-right: 40%;
-        text-align: center;
-    }
-
-    #my-work-text h2 
-    
-    {
-        display: block;
-
-        font-size: large;
-        margin-left: 40%;
-        margin-right: 40%;
-        text-align: center;
-    }
-
-    #contact-me-text a 
-    {
-        display: none;
-    }
-
-}
-
-/*--------------------------------------------Media Query - Screen size 650px or lower------------------------------------------------*/
-
-
-@media screen and (max-width: 650px) 
-{
-
-    .logo
-    {
-        width: 12%;
-        padding-left: 48%;
-    }
-
-    .logo-text
-    {
-        display: block;
-        font-size: x-large;
-        padding-left: 8%;
-        width: fit-content;
-    }
-    nav {
-        flex-wrap: wrap;
-        font-size: small;
-    }
-
-    .nav-link-div{
-        z-index: 1;
-        width: 100%;
-    }
-
-    #about-me-text h2  {
-        display: block;
-        font-size: large;
-        margin-left: 35%;
-        margin-right: 35%;
-        text-align: center;
-    }
-
-    #my-work-text h2 
-    
-    {
-        display: block;
-
-        font-size: large;
-        margin-left: 41%;
-        margin-right: 40%;
-        text-align: center;
-    }
-
-}
-
-/*--------------------------------------------Media Query - Screen size 541px or lower------------------------------------------------*/
-
-@media screen and (max-width: 541px) 
-{
-
-    .logo
-    {
-        width: 12%;
-        padding-left: 48%;
-    }
-
-    .logo-text
-    {
-        display: block;
-        font-size: x-large;
-        padding-left: 2%;
-        width: fit-content;
-    }
-    nav a {
-        flex-wrap: wrap;
-        font-size: small;
-        
-    }
-
-    .nav-link-div{
-        position: relative;
-        
-    }
-
-   
-
-    #about-me-text h2  {
-        display: block;
-
-        font-size: small;
-        margin-left: 35%;
-        margin-right: 35%;
-        text-align: center;
-    }
-
-    #my-work-text h2 
-    
-    {
-        display: block;
-
-        font-size: small;
-        margin-left: 40%;
-        margin-right: 35%;
-        text-align: center;
-    }
-
-}
+
+    <title>Zafar's portfolio</title>
+</head>
+<body>
+    <!-- Header: Logo and Navigation bar -->
+    <header>
+        <nav>
+            <div class="logo-div">
+                <img class="logo" src="logo3.png" alt="logo">
+                <span class="logo-text">Zafar Ahmed</span>
+            </div>
+            <div class="nav-link-div">
+                <ul >
+                    <li class="item1">
+                        <a href="#about-me-text">About me</a>
+                    </li>
+
+                    <li class="item2">
+                        <a href="#my-work-text">My work</a>
+                    </li>
+
+                    <li class="item3">
+                    <a href="#contact-me-text">Contact me</a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Image below the Navigation bar -->
+
+<section class="section-1">
+    <div class="main-img">
+        <img src="main-img.jpg" alt="Eat sleep code repeat" width="100%" height="auto">
+    </div>
+</section>
+
+    <!-- About me Section -->
+
+<section class="section-2">
+    <div id="about-me-text">
+        <h2> ..about me </h2>
+        <img id="profile-pic" src="pic.jpg" alt="profile picture">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.
+        </p>
+    </div>
+</section>
+
+    <!-- Horizontal line -->
+
+<hr style="border-top: dotted 10px;" />
+
+    <!-- My Work section -->
+
+<section class="section-3">
+    <div id="my-work-text">
+        <h2> ..my work </h2>
+        <div id="image-grid">
+            <div class="card1">
+                <a href="https://zafarfast.github.io/week-1-challenge/">
+                    <img src="app1_screenshot.png" alt="application one">
+                </a>
+            </div>
+
+            <div class="card2">
+                <a href="https://logo.com">
+                    <img src="app2_screenshot.png" alt="application two">
+                </a>
+
+                <a href="https://wix.com">
+                    <img src="app3_screenshot.png" alt="application three">
+                </a>
+
+                <a href="https://wordpress.com">
+                    <img src="app4_screenshot.png" alt="application four">
+                </a>
+
+            </div>
+    </div>
+</section>
+
+    <!-- Footer: Contact Me -->
+
+<footer class="section-4">
+    <div id="contact-me-text">
+
+        <a href="https://facebook.com"><img src="fb.png" alt="Facebook"></a>
+        <a id = "hide-text" href="https://facebook.com">Facebook</a>
+
+        <a href="https://instagram.com"><img src="insta.png" alt="Instagram"></a>
+        <a id = "hide-text" href="https://instagram.com">Instagram</a>
+
+        <a href="https://au.linkedin.com/"><img src="linkedin.png" alt="Linked-in"></a>
+        <a id = "hide-text" href="https://au.linkedin.com/">Linked-in</a>
+
+        <a href="mailto: zafar_fast@hotmail.com"><img src="email.png" alt="Email"></a>
+        <a id = "hide-text" href="mailto: zafar_fast@hotmail.com">Email</a>
+
+    </div>
+</footer>
+
+</body>
+</html>
