@@ -5,7 +5,7 @@
 https://zafarfast.github.io/week-2-challenge/
 
 ### Screenshot (Desktop view)
-![Desktop View](screenshot1.png)
+![Desktop View](Screenshot1.png)
 
 ### Screenshot (Mobile view)
-![Mobile View](screenshot2.png)
+![Mobile View](Screenshot2.png)
